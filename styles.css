@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px;
+    padding: 16px 156px;
 }
 
 .logo {
@@ -33,11 +33,11 @@ ul {
 
 .hero {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 350px;
     padding: 64px 8px;
-    gap: 16px;
+    gap: 48px;
 }
 
 .hero-modal {
@@ -73,8 +73,8 @@ button.sign {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 450px;
-    height: 200px;
+    width: 520px;
+    height: 240px;
     color: #E5E7EB;
     background-color: darkgrey;
 }
@@ -88,7 +88,7 @@ button.sign {
 }
 
 .blank-image {
-    border-radius: 8px;
+    border-radius: 16px;
     border:4px solid #3882F6;
     width: 150px;
     height: 150px;
@@ -98,8 +98,8 @@ button.sign {
 .content-container {
     display: flex;
     justify-content: center;
-    gap: 32px;
-    padding-bottom: 96px;
+    gap: 64px;
+    padding-bottom: 132px;
 }
 
 .info {
@@ -109,29 +109,31 @@ button.sign {
 
 .quote {
     background-color: #E5E7EB;
+    padding: 120px 296px;
 }
 
 .quote-text {
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
-    padding-top: 96px;
     margin-bottom: 8px;
 }
 
 .quote-author {
     text-align: right;
     font-weight: bold;
-    padding-bottom: 96px;
 }
 
 .action-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 64px;
     border-radius: 8px;
     background-color: #3882F6;
     color: #F9FAF8;
+    margin: 96px 248px;
+    height: 24px;
 }
 
 .action-header {
@@ -150,5 +152,5 @@ button.action {
     text-align: center;
     background-color: #1F2937;
     color: #E5E7EB;
-    padding: 32px;
+    padding: 40px;
 }
