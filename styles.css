@@ -62,7 +62,7 @@ button {
     border-radius: 8px;
 }
 
-.sign {
+button.sign {
     background-color: #3882F6;
     border: 1px solid #3882F6;
     color: #E5E7EB;
@@ -99,9 +99,56 @@ button {
     display: flex;
     justify-content: center;
     gap: 32px;
+    padding-bottom: 96px;
 }
 
 .info {
     width: 150px;
     text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    padding-top: 96px;
+    margin-bottom: 8px;
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: bold;
+    padding-bottom: 96px;
+}
+
+.action-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 64px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.action-header {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+button.action {
+    background-color: #3882F6;
+    border: 1px solid #F9FAF8;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 32px;
 }
